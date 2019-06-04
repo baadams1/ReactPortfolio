@@ -1,0 +1,44 @@
+.HomePage {
+  background-color: rgb(211, 203, 203);
+  height: 100vh;
+}
+.Title {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  transform: translate(-20%);
+  
+}
+.Title h1 {
+  color: white;
+  margin-top: 0;
+  font-size: 165px;
+  line-height: 170px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+.color {
+  color: red;
+}
+
+#social-media{
+    position: fixed;
+    right: -20px;
+    top: 70px;
+
+}
+#social-media ul{
+    transform: rotate(-90deg);
+    list-style: none;
+}
+#social-mmedia ul li{
+    display: inline-block;
+}
+#social-media ul li a{
+    text-transform: uppercase;
+    font-size: 18px;
+    color:white;
+    font-family: "Inconsolata", monospace;
+    text-decoration: none;
+}
